@@ -1,0 +1,25 @@
+#
+# This file has to be updated regularly when the project structure is
+# changed or expanded. The specified filtering rules make it easier to
+# check in the relevant project files and source code.
+#
+
+#
+# Ignore all .data directories and which are created by JDeveloper
+#
+/**/.data/*
+
+#
+# Ignore (empty) directories which are created by JDeveloper.
+#
+/Batch/classes/*
+/Sources/Common/classes/*
+/Sources/Common-Tests/classes/*
+/Sources/Dictionary/classes/*
+/Sources/Dictionary-Tests/classes/*
+/Sources/Neural/classes/*
+/Sources/Neural-Tests/classes/*
+/Sources/Parser/classes/*
+/Sources/Parser-Tests/classes/*
+/Sources/Prolog/classes/*
+/Sources/Prolog-Tests/classes/*
